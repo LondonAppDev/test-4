@@ -14,6 +14,8 @@ class TagSerializer(serializers.ModelSerializer):
 
 class IngredientSerializer(serializers.ModelSerializer):
     """Serializer for ingredient objects"""
+    # This is the ingredients serializer which is used for handling the ingredients
+    # for our recipes in our recipe application
 
     class Meta:
         model = Ingredient
