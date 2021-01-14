@@ -131,4 +131,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = '/vol/web/media'
 STATIC_ROOT = '/vol/web/static'
 
+ABACUS = '1234'
+
 AUTH_USER_MODEL = 'core.User'
