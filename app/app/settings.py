@@ -84,7 +84,7 @@ DATABASES = {
         'HOST': os.environ.get('DB_HOST'),
         'NAME': os.environ.get('DB_NAME'),
         'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'PASSWORD': os.environ.get('DB_PASS'),
     }
 }
 
@@ -128,7 +128,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = '/vol/web/media'
-STATIC_ROOT = '/vol/web/static'
+MEDIA_ROOT = 'vol/web/media'
+STATIC_ROOT = '/vol/web/static/'
 
 AUTH_USER_MODEL = 'core.User'
